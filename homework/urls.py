@@ -26,6 +26,7 @@ urlpatterns = [
     path("", include("hw1.urls"), name="hw1"),
     path("hw3/", include("hw3.urls"), name="hw3"),
     path("hw4/", include("hw4.urls"), name="hw4"),
+    #path('__debug__/', include("debug_toolbar.urls")),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
