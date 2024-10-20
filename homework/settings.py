@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'homework.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'MyfirstDjangoPro$default$MyfirstDjangoPro',
+        'NAME': 'MyfirstDjangoPro$default',
         'USER': 'MyfirstDjangoPro',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
         'HOST': 'MyfirstDjangoProject.mysql.pythonanywhere-services.com',
